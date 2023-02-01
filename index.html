@@ -5,66 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4f7fe5e387.js" crossorigin="anonymous"></script>
+
+
+    <title>ToDo website</title>
 </head>
 
 <body>
     <header>
-        <img src="/image/logo2.jpg">
-        <h1>ToDo</h1>
-
+        <div>
+            <img src="/image/logo2.jpg">
+        </div>
         <nav>
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li> <a href="/About.html">About</a></li>
+                <li><a href="/About.html">About</a></li>
             </ul>
-
-
         </nav>
-        <br><br><br>
-        <main>
-            <table border="1">
-                <tr>
-                    <th>Task</th>
-                    <th>Status</th>
-                </tr>
-
-                <tr>
-                    <td>lab1</td>
-                    <td>finish</td>
-                </tr>
-                <tr>
-                    <td>lab2</td>
-                    <td>pending</td>
-                </tr>
-                <tr>
-                    <td>lab3</td>
-                    <td>absent</td>
-                </tr>
-
-            </table>
-
-        </main>
-        <br><br>
-        <footer>
-            <section>
-                <i>Facebook</i> <br>
-                <i>LinkedIn</i> <br>
-                <i>Github</i>
-            </section>
-            <section>
-                <p> &copy; All right reserved </p>
-            </section>
-
-            <section>
-                <i>this is the great website to help you.</i>
-                
-
-            </section>
-        </footer>
-
-
+        <div>
+            <h1 class="head">ToDo website</h1>
+        </div>
     </header>
+    <br><br><br>
+    <main>
+        <div id="listtodo">
+            <h2>list for ToDo</h2>
+        </div>
+        <table border="1">
+            <tr>
+                <th class="th1">Task</th>
+                <th class="th1">Status</th>
+            </tr>
+
+            <tr>
+                <td class="td1">learn java script</td>
+                <td id="td1">finish</td>
+            </tr>
+            <tr>
+                <td class="td1">creat html page</td>
+                <td class="td2">pending</td>
+            </tr>
+            <tr>
+                <td class="td1">lab3</td>
+                <td class="td2">absent</td>
+            </tr>
+
+        </table>
+
+    </main>
+    <br><br>
+    <footer>
+        <section class="contactus">
+            <p>contact us:</p>
+            <i class="fab fa-facebook">Facebook</i><br>
+            <i class="fab fa-linkedin">Linkedin</i><br>
+            <i class="fab fa-whatsapp">whatsapp</i>
+
+        </section>
+        <section class="copyright">
+            <p> &copy; All right reserved </p>
+        </section>
+
+        <section>
+            <i class="information">this is the great website to help you.</i>
+        </section>
+    </footer>
+
+
+
 </body>
 
 </html>
