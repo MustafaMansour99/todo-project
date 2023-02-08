@@ -28,9 +28,9 @@ if (skip === false) {
 
 }
 let arr =[];
-let question1 = prompt("Do you love JavaScript?");
-let question2 = prompt("Does JavaScript easy language?");
-let question3 = prompt("Does JavaScript have function?");
+let question1 = prompt("Do you love JavaScript?/YES OR NO");
+let question2 = prompt("Does JavaScript easy language?/YES OR NO");
+let question3 = prompt("Does JavaScript have function?/YES OR NO");
 
 function compare(m)
 {
