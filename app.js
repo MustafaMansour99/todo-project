@@ -3,14 +3,14 @@
 let myname = prompt("Please enter your name: ");
 console.log(myname);
 
-let gender = prompt("Please enter your gender (male or female): ");
+let gender = prompt("Please enter your gender (Male or Female): ");
 console.log(gender);
 
 let age = prompt("please enter your age");
 console.log(age);
 while (age <= 0) {
   alert("invalid age ");
-  age = prompt("Please re-enter your age:");
+  age =prompt(" Please re-enter your age:");
   console.log(age);
 }
 let skip = confirm("Do you want to skip the welcome message?");
