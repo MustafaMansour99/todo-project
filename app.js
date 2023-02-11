@@ -28,9 +28,14 @@ if (skip === false) {
 
 }
 let arr =[];
-let question1 = prompt("Do you love JavaScript?/YES OR NO");
-let question2 = prompt("Does JavaScript easy language?/YES OR NO");
-let question3 = prompt("Does JavaScript have function?/YES OR NO");
+let question1 = "Do you love JavaScript?/YES OR NO";
+let question2 = "Does JavaScript easy language?/YES OR NO";
+let question3 = "Does JavaScript have function?/YES OR NO";
+
+function prompt_question(question){
+  let x = prompt(question);
+  compare(x);
+}
 
 function compare(m)
 {
@@ -51,9 +56,9 @@ function pushh(){
     console.log(arr[i]);
   }
 }
-compare(question1);
-compare(question2);
-compare(question3);
+prompt_question(question1);
+prompt_question(question2);
+prompt_question(question3);
 console.log(arr);
 pushh();
 
